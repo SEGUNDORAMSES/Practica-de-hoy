@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background: #000;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0 1.5em;
+    line-height: 1.6;
+}
+
+.content{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 1.5em;
+}
+
+.logo{
+    text-align: center;
+    font-size: 3em;
+}
+
+.logo span{
+    color: red;
+}
+.contact-container {
+    box-shadow: 0 0 20px 0 rgba(255, 255, 255, .3);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.contact-form {
+    background: #222222;
+}
+.contact-form form {
+    
+}
+.contact-form label{
+    display: block;
+}
+.contact-info {
+    background-color: #000;
+}
