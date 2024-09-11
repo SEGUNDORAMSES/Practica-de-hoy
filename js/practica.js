@@ -1,32 +1,32 @@
-function trabajo(event) {
-    event.preventDefault();
+// function trabajo(event) {
+//     event.preventDefault();
 
-let nombre=document.getElementById("nombre").value;
-alert(`ESTE ES EL CODIGO:  ${nombre}`)
+// let nombre=document.getElementById("nombre").value;
+// alert(`ESTE ES EL CODIGO:  ${nombre}`)
 
-let dope;
+// let dope;
 
-switch (drop) {
-    case "fecha":
-        dope="Fecha"
-        break;
+// switch (drop) {
+//     case "fecha":
+//         dope="Fecha"
+//         break;
     
-        case "lugar":
-        dope="Lugar"
-        break;
+//         case "lugar":
+//         dope="Lugar"
+//         break;
 
-    default:
-        alert("it is not place")
-        break;
-
-
-    }
+//     default:
+//         alert("it is not place")
+//         break;
 
 
-    alert(`${dope}`);
+//     }
 
 
-}
+//     alert(`${dope}`);
+
+
+// }
 
 
 
